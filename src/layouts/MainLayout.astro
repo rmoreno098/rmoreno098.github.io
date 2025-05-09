@@ -1,0 +1,24 @@
+---
+import Header from "../components/Header";
+const { ...props } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{props.title}</title>
+    </head>
+    <body class="bg-gray-100 text-gray-900">
+        <Header client:load />
+
+        <div
+            class="flex flex-col items-center justify-center min-h-screen md:min-h-[calc(100vh-64px)] w-full gap-y-8 bg-gray-100 p-2 md:p-4"
+        >
+            <slot />
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "TCP Load Balancer",
+    "description": "A lightweight TCP load balancer prototype using epoll for handling client connections and forwarding requests to backend servers. ",
+    "image": "",
+    "link": "https://github.com/rmoreno098/lbc"
+  },
+  {
+    "id": 2,
+    "title": "Lucien Bot",
+    "description": "A music bot for Discord with voice channel support and custom commands for moderators and admins.",
+    "image": "",
+    "link": "https://github.com/rmoreno098/lucien"
+  },
+  {
+    "id": 3,
+    "title": "Spotify Widget",
+    "description": "A web application that allows users to authenticate with Spotify, view their playlists, and access information about artists and genres based on their profile.",
+    "image": "",
+    "link": "https://github.com/rmoreno098/spotifywidget"
+  },
+  {
+    "id": 4,
+    "title": "Real Time Chat Application",
+    "description": "Web application allowing users to register for public chat rooms via WebSockets in Go and Typescript.",
+    "image": "",
+    "link": "https://github.com/rmoreno098/rtc"
+  }
+]
