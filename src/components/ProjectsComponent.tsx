@@ -1,7 +1,7 @@
 import { Github } from "lucide-react";
 import projects from "../data/projects.json";
 
-export default function Projects() {
+export default function ProjectsComponent() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 p-6">
       {projects.map((project) => (

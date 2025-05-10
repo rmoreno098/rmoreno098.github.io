@@ -6,7 +6,7 @@ const navItems = [
   { id: "projects", label: "Projects" },
 ];
 
-export default function Header() {
+export default function HeaderComponent() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
