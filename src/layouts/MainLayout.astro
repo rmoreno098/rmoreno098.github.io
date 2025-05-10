@@ -1,6 +1,6 @@
 ---
+const { title } = Astro.props;
 import HeaderComponent from "../components/HeaderComponent";
-const { ...props } = Astro.props;
 ---
 
 <!doctype html>
@@ -10,7 +10,7 @@ const { ...props } = Astro.props;
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
-        <title>{props.title}</title>
+        <title>{title}</title>
     </head>
     <body class="bg-gray-100 text-gray-900">
         <HeaderComponent client:load />
